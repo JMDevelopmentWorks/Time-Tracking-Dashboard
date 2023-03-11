@@ -138,6 +138,7 @@
 
 .activebg {
   background-color: var(--desaturated-blue);
+  cursor: pointer;
 }
 
 
