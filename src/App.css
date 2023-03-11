@@ -113,7 +113,6 @@
   width: 230px;
   position: absolute;
   border-radius: 15px 15px 0 0;
-
 }
 
 .app__dashboard-card-header-img {
@@ -233,22 +232,29 @@
   .app__dashboard-card {
     width: 18rem;
     height: 150px;
+    
   }
 
   .app__dashboard-card-header {
     width: 18rem;
+    border-radius: 15px;
+    z-index: 1;
+
   }
 
   .app__dashboard-card-header-img {
     top: -.5rem;
     width: 60px;
     height: 60px;
+    
   }
 
   .app__dashboard-card-content {
     width: 16rem;
     height: 100px;
     top: 2rem;
+    z-index: 2;
+    
   }
   
   .app__dashboard-card-content-current {
