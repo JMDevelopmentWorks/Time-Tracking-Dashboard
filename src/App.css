@@ -127,23 +127,32 @@
   border-radius: 15px;
   padding: 1rem;
  width: 200px;
- height: 155px;
+ height: 165px;
  top: 2.5rem;
  left: 0;
  position: absolute;
  background-color: var(--dark-blue);
  color: white;
+ text-decoration: none;
 }
 
+.activebg {
+  background-color: var(--desaturated-blue);
+}
+
+
+
+.app__dashboard-card-content-header {
+  position: relative;
+  z-index: 10;
+}
 
 .app__dashboard-card-content-title {
   margin: 0rem;
   padding: .5rem;
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .app__dashboard-card-content-current {
@@ -163,6 +172,14 @@
   height: 30px;
   color: var(--pale-blue);
 }
+
+
+
+.active {
+  color: white;
+  cursor: pointer;
+}
+
 
 .work {
   background-color: var(--work-red);
