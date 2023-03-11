@@ -118,7 +118,7 @@ function App() {
                 )}
 
                 {weekly && (
-                  <div>
+                  <div className="app__dashboard-card-info">
                     <p className="app__dashboard-card-content-current">
                       {item.timeframes.weekly.current}hrs
                     </p>
@@ -129,7 +129,7 @@ function App() {
                 )}
 
                 {monthly && (
-                  <div>
+                  <div className="app__dashboard-card-info">
                     <p className="app__dashboard-card-content-current">
                       {item.timeframes.monthly.current}hrs
                     </p>
