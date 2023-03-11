@@ -189,7 +189,8 @@
   background-color: var(--selfcare-orange);
 }
 
-
+.attribution { font-size: 11px; text-align: center; color: var(--pale-blue); }
+.attribution a { color: white; }
 
 
 @media screen and (max-width: 450px) {

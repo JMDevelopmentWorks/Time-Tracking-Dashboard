@@ -30,6 +30,7 @@ function App() {
   };
 
   return (
+    <div>
     <div className="app">
       <div className="app__user">
         <div className="app__user-info">
@@ -94,6 +95,11 @@ function App() {
           </div>
         ))}
       </div>
+    </div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">JMDevelopment</a>.
+  </div>
     </div>
   );
 }
