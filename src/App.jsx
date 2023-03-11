@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { images } from "./constants";
 import dataInfo from "./Data/Data";
-import {BiDotsHorizontalRounded} from 'react-icons/bi'
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -69,7 +69,7 @@ function App() {
               />
             </div>
             <div className="app__dashboard-card-content">
-              <p className="app__dashboard-card-content-title">{item.title} <BiDotsHorizontalRounded className="icon"/></p>
+              <p className="app__dashboard-card-content-title">{item.title} </p>
               {daily && (
                 <div className="app__dashboard-card-info">
                   <p className="app__dashboard-card-content-current">{item.timeframes.daily.current}hrs</p>
