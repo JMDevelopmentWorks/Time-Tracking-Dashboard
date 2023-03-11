@@ -79,9 +79,7 @@
   cursor: pointer;
 }
 
-.app__user-controls-btn:focus {
-  color: white;
-}
+
 
 .app__dashboard {
   display: flex;
